@@ -37,7 +37,7 @@ class InkyQR(qrcode.image.base.BaseImage):
         inkyphat.rectangle(box, fill=inkyphat.BLACK)
 
 
-inkyphat.set_image("Pimoroni/inkyphat/examples/resources/empty-backdrop.png")
+inkyphat.set_image("inky-phat/examples/resources/empty-backdrop.png")
 
 qr = qrcode.QRCode(
 	version=1,
